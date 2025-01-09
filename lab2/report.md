@@ -81,11 +81,17 @@ spec:
 
 **6. Переход на url для проверки**
 
-По url ```localhost:3000``` видим
+По url ```localhost:3000``` видим 
+
+![image2](https://github.com/user-attachments/assets/dd44f610-e934-484d-9423-ef25f70dd8cb)
 
 Переменные REACT_APP_USERNAME и REACT_APP_COMPANY_NAME неизменны, т.к были заданы в виде переменных среды при создании объекта deployment.
 При этом переменная Container name может изменяться, что будет заметно, если адресация будет выполнена к разным контейнерам.
 
 **7. Вывод логов**
 
+![image5](https://github.com/user-attachments/assets/e2033395-7ad0-4d2b-9892-15e41a8918c9)
+
 **8. Схема**
+
+![LAB2 drawio](https://github.com/user-attachments/assets/d45aa72d-a5ce-4734-9654-6f3be788f69a)
