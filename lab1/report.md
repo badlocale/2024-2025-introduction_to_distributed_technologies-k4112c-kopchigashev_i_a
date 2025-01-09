@@ -15,7 +15,11 @@ Date of finished: _
 ```
 minikube start
 ```
+![image1](https://github.com/user-attachments/assets/6ca18bc2-c51d-434d-a5be-a8772399f35b)
+
 **2. Запуск пода vault**
+
+![image6](https://github.com/user-attachments/assets/961c218f-fa48-4687-828e-5f7632dde821)
 
 Команда ```kubectl apply -f vault.yaml читает файл vault.yaml``` анализирует его содержимое (описание ресурсов), и создает или обновляет объекты Kubernetes в кластере, чтобы соответствовать описанию в файле манифеста, описанному ниже.
 ```
@@ -41,7 +45,10 @@ spec:
 ```
 http://localhost:8200/ui/vault/dashboard
 ```
+![image4](https://github.com/user-attachments/assets/451f515f-a0d4-416c-be37-4967e2456e42)
 
 **4. Поиск токена**
 
 Команда ```minikube kubectl logs vault``` осуществляет вывод логов контейнера, в логах находится строка ```Root Token: hvs.W6iLnQqWUmjLhGcyfRaxxr77``` с токеном
+
+![image3](https://github.com/user-attachments/assets/4e0f8b8b-5333-43f2-a8d5-deef3418ff64)
